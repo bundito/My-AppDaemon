@@ -93,13 +93,13 @@ class your_class_name(hass.Hass):
   def initialize(self): 
  ```
  
-At the start of any python script you start with importing some **libraries.:two:**  
+At the start of any python script you start with importing some **[libraries.](https://docs.python.org/3/reference/import.html)** :link: :two:
 That is like when you want to start writing a document about a certain topic and you start by collecting some books which might help you write about your topic. You might want to use some parts from those books later on.  
 Of course you only collect those books which are helpful with your topic. If you collect some other books later on, while writing, you can put those by the others.  
 In python it is the same. We won’t use any other libraries in this app, but maybe later we use another one like datetime and then we would set "import datetime" beneath the other import.
  
-In the second line we start a **class:two:**. And in this case I have given the class the name “your_class_name”. You can use any name there that you like. The most important thing about naming things is that it makes sense to you (and maybe later also for others).  
-After that part, we find between the brackets, **hass.Hass:one:**. In every class we use in AppDaemon we use that. It would be too much to explain classes in python, but you can search for "python classes" on Google if you would like to learn more about it.
+In the second line we start a **[class](https://docs.python.org/3/tutorial/classes.html)**:link: :two:. And in this case I have given the class the name “your_class_name”. You can use any name there that you like. The most important thing about naming things is that it makes sense to you (and maybe later also for others).  
+After that part, we find between the brackets, **[hass.Hass](https://appdaemon.readthedocs.io/en/latest/APPGUIDE.html#anatomy-of-an-app)**:link: :one:. In every class we use in AppDaemon we use that. It would be too much to explain classes in python, but you can search for "python classes" on Google if you would like to learn more about it.
  
 In the third line we create a function. I hear you think: "what is a function?"  
 In short a function is a tiny action from your app. let’s say you want to add 2 figures over and over. Then you could write a function called addup which returns that value. You call it by writing "addup(5,7)".  
@@ -108,7 +108,7 @@ You might want to talk about how functions are also used to help organize your c
 It is like when you are writing that document and you put a link to a part from another book and that part gets displayed to the user, without you writing that part over and over.  The well known functions would be like a table of contents or an index.    They are parts of a book we expect to find.  Chapters are like functions that organize our book even though they are referenced multiple times.  
 In this app alone we are going to make 2 functions (and use a lot more). The First to start our app and the second which contains our action.  
  
-All functions start with a line like this: **def:two:** any_name(some, variables, you, want, to, pass, to, the, function):
+All functions start with a line like this: **[def](https://docs.python.org/3/reference/compound_stmts.html#function-definitions)**:link: :two: any_name(some, variables, you, want, to, pass, to, the, function):
 This function (initialize) is a special one that we use in all apps.  
 Anything you create in this function will be done at the moment you start your app.
  
